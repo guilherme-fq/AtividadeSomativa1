@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Cadastro</title>
+		<link rel="stylesheet" type="text/css" href="estilo_css/estilo.css">
+	</head>
+	<body>
+		<div id="Interface">
+			<header id="cabeçalho">
+	
+			</header>
+	
+			<nav id="menu">
+		
+				<h2>
+					<ul>
+					<h1>Menu</h1>
+						<li><a href="cadastro.html">Cadastro</a></li>
+						<li><a href="itens.php">Itens</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="editcadastro.html">Editar cadastro</a></li>
+					</ul>
+				</h2>
+			</nav>
+		</div>
+		<div>
+			<form method="post" id="fCadastro" action="http://localhost/ATP/RecebeDados.php"> 
+				<fieldset id="usuario">
+					<p>Nome: <input type="text" name="tNome" id="cNome" size="50" maxlength="50" placeholder="Nome completo"/></p>
+					<p>Senha: <input type="password" name="tSenha" id="cSenha" size="10" maxlength="8" placeholder="Senha"/></p>
+					<p>E-mail:<input type="email" name="tEmail" id="cEmail" size="50" maxlength="50" placeholder="Digite seu e-mail"/></p>
+					<p><input type="submit" name="tEnviar" id="cEnviar" value="Enviar"></p>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
